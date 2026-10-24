@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover films, explore reviews, and rate your favourite movies on CineVault.">
+    <title>CineVault — Movies & Reviews</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">CINE<span>VAULT</span></a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#movies">Movies</a>
+            <a href="#top-rated">Top Rated</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+
+        <a href="#movies" class="nav-button">Explore Films ↗</a>
+    </header>
+
+    <main>
+        <!-- Featured Film -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <span class="featured-label">✦ EDITOR'S SPOTLIGHT</span>
+                <p class="hero-meta">SCI-FI · ADVENTURE · 2021</p>
+
+                <h1>DUNE</h1>
+
+                <div class="hero-rating">
+                    <span class="star">★</span>
+                    <strong>8.0/10</strong>
+                    <span class="muted">IMDb rating</span>
+                </div>
+
+                <p class="hero-description">
+                    A gifted young man must travel to the most dangerous
+                    planet in the universe to secure the future of his
+                    family and his people.
+                </p>
+
+                <p class="hero-cast">
+                    <strong>Director:</strong> Denis Villeneuve
+                    <span>·</span>
+                    <strong>Cast:</strong> Timothée Chalamet, Rebecca Ferguson
+                </p>
+
+                <a href="#dune-review" class="gold-button">Read Film Review ↗</a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>01 / FEATURED FILM</span>
+                <span>THE ART OF CINEMA</span>
+            </div>
+        </section>
+
+        <!-- Quick Stats -->
+        <section class="stats-bar">
+            <div>
+                <strong>2,400+</strong>
+                <span>Films explored</span>
+            </div>
+            <div>
+                <strong>850+</strong>
+                <span>Critic reviews</span>
+            </div>
+            <div>
+                <strong>120K+</strong>
+                <span>Film enthusiasts</span>
+            </div>
+            <div>
+                <strong>Since 2024</strong>
+                <span>Celebrating cinema</span>
+            </div>
+        </section>
+
+        <!-- Movie Collection -->
+        <section class="section" id="movies">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">YOUR NEXT GREAT WATCH</p>
+                    <h2>Explore the collection<span>.</span></h2>
+                </div>
+                <a href="#top-rated" class="section-link">Discover more ↗</a>
+            </div>
+
+            <div class="movie-grid">
+
+                <!-- Dune -->
+                <article class="movie-card" id="dune-review">
+                    <div class="poster poster-dune">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+                            alt="Dune (2021) official movie poster"
+                            loading="lazy">
+                        <span class="poster-tag">EDITOR'S PICK</span>
+                        <span class="poster-rating">★ 8.0</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">SCI-FI · ADVENTURE</p>
+                        <h3>Dune</h3>
+                        <p class="release-date">September 2021 · 155 min</p>
+
+                        <p class="synopsis">
+                            Paul Atreides journeys to Arrakis, a desert
+                            world holding the most valuable substance
+                            in the universe.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Denis Villeneuve
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Timothée Chalamet,
+                            Zendaya, Oscar Isaac
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "An immersive science-fiction epic with
+                                extraordinary scale and atmosphere."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- Interstellar -->
+                <article class="movie-card" id="top-rated">
+                    <div class="poster poster-interstellar">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+                            alt="Interstellar (2014) official movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 8.7</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">SCI-FI · DRAMA</p>
+                        <h3>Interstellar</h3>
+                        <p class="release-date">November 2014 · 169 min</p>
+
+                        <p class="synopsis">
+                            A group of explorers travels beyond this
+                            galaxy to discover whether humanity has
+                            a future among the stars.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Christopher Nolan
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Matthew McConaughey,
+                            Anne Hathaway, Jessica Chastain
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A grand cosmic journey anchored by
+                                intimate human emotion."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- The Dark Knight -->
+                <article class="movie-card">
+                    <div class="poster poster-darkknight">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                            alt="The Dark Knight (2008) official movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 9.0</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">ACTION · CRIME</p>
+                        <h3>The Dark Knight</h3>
+                        <p class="release-date">July 2008 · 152 min</p>
+
+                        <p class="synopsis">
+                            Batman faces the Joker, a criminal mastermind
+                            determined to plunge Gotham into chaos.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Christopher Nolan
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Christian Bale,
+                            Heath Ledger, Aaron Eckhart
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A tense crime saga with a legendary
+                                performance at its centre."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- Parasite -->
+                <article class="movie-card">
+                    <div class="poster poster-parasite">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+                            alt="Parasite (2019) official movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 8.5</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">THRILLER · DRAMA</p>
+                        <h3>Parasite</h3>
+                        <p class="release-date">May 2019 · 132 min</p>
+
+                        <p class="synopsis">
+                            A struggling family becomes entangled with
+                            a wealthy household in a scheme that spirals
+                            beyond their control.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Bong Joon Ho
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Song Kang-ho,
+                            Choi Woo-shik, Park So-dam
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A razor-sharp social thriller that
+                                constantly shifts beneath your feet."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- Oldboy -->
+                <article class="movie-card">
+                    <div class="poster poster-oldboy">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg"
+                            alt="Oldboy (2003) theatrical movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 8.3</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">MYSTERY · THRILLER</p>
+                        <h3>Oldboy</h3>
+                        <p class="release-date">November 2003 · 120 min</p>
+
+                        <p class="synopsis">
+                            After fifteen years of unexplained captivity,
+                            a man is released and begins a relentless
+                            search for the truth.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Park Chan-wook
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Choi Min-sik,
+                            Yoo Ji-tae, Kang Hye-jung
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A disturbing revenge mystery built
+                                around unforgettable visual storytelling."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- Whiplash -->
+                <article class="movie-card">
+                    <div class="poster poster-whiplash">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+                            alt="Whiplash (2014) official movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 8.5</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">DRAMA · MUSIC</p>
+                        <h3>Whiplash</h3>
+                        <p class="release-date">October 2014 · 107 min</p>
+
+                        <p class="synopsis">
+                            An ambitious young drummer enters a brutal
+                            relationship with a demanding music instructor.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Damien Chazelle
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Miles Teller,
+                            J.K. Simmons, Paul Reiser
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A relentless examination of ambition,
+                                obsession and the price of greatness."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- Inception -->
+                <article class="movie-card">
+                    <div class="poster poster-inception">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg"
+                            alt="Inception (2010) official movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 8.8</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">SCI-FI · THRILLER</p>
+                        <h3>Inception</h3>
+                        <p class="release-date">July 2010 · 148 min</p>
+
+                        <p class="synopsis">
+                            A skilled thief who steals secrets through
+                            dreams takes on an impossible task: planting one.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Christopher Nolan
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Leonardo DiCaprio,
+                            Joseph Gordon-Levitt, Elliot Page
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A labyrinthine blockbuster that makes
+                                spectacle out of abstract ideas."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+                <!-- The Shawshank Redemption -->
+                <article class="movie-card">
+                    <div class="poster poster-shawshank">
+                        <img
+                            src="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+                            alt="The Shawshank Redemption (1994) movie poster"
+                            loading="lazy">
+                        <span class="poster-rating">★ 9.3</span>
+                    </div>
+
+                    <div class="movie-info">
+                        <p class="genre">DRAMA</p>
+                        <h3>The Shawshank Redemption</h3>
+                        <p class="release-date">September 1994 · 142 min</p>
+
+                        <p class="synopsis">
+                            A banker sentenced to life in prison forms
+                            an enduring friendship while holding on to hope.
+                        </p>
+
+                        <p class="cast">
+                            <strong>Director:</strong> Frank Darabont
+                        </p>
+                        <p class="cast">
+                            <strong>Cast:</strong> Tim Robbins,
+                            Morgan Freeman, Bob Gunton
+                        </p>
+
+                        <div class="review">
+                            <span>CRITIC'S TAKE</span>
+                            <p>
+                                "A patient, humane story about endurance,
+                                friendship and the possibility of freedom."
+                            </p>
+                        </div>
+
+                        <a href="#reviews" class="review-link">Read review ↗</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="reviews-section" id="reviews">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">BEYOND THE SCREEN</p>
+                    <h2>From the critic's desk<span>.</span></h2>
+                </div>
+            </div>
+
+            <div class="review-grid">
+                <article class="critic-card">
+                    <p class="critic-category">FILMMAKING</p>
+                    <h3>When images tell the story</h3>
+                    <p>
+                        Great cinema isn't only about what characters say.
+                        Composition, movement, light and silence can reveal
+                        what dialogue cannot.
+                    </p>
+                    <span>THE CINEVAULT JOURNAL · 5 MIN READ</span>
+                </article>
+
+                <article class="critic-card">
+                    <p class="critic-category">SCREENWRITING</p>
+                    <h3>The art of a meaningful ending</h3>
+                    <p>
+                        The most powerful endings do more than resolve
+                        a plot. They transform how we understand everything
+                        that came before.
+                    </p>
+                    <span>THE CINEVAULT JOURNAL · 4 MIN READ</span>
+                </article>
+
+                <article class="critic-card">
+                    <p class="critic-category">CINEMA CULTURE</p>
+                    <h3>Why world cinema matters</h3>
+                    <p>
+                        Different cultures, filmmaking traditions and
+                        perspectives can expand the way we see the world.
+                    </p>
+                    <span>THE CINEVAULT JOURNAL · 6 MIN READ</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <p class="eyebrow">FOR THE LOVE OF FILM</p>
+            <h2>Stay in the frame.</h2>
+            <p>Discover films, revisit classics and think deeper about cinema.</p>
+            <a href="mailto:hello@example.com" class="gold-button">
+                Contact the editors ↗
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">CINE<span>VAULT</span></a>
+        <p>A celebration of cinema, one frame at a time.</p>
+        <span>© 2026 CineVault</span>
+    </footer>
+
+</body>
+</html>
